@@ -1,0 +1,863 @@
+2022-11-14 15:46:13.501 [INFO] pid[29056]: http server started listening on [:9607]
+2022-11-14 15:46:13.501 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 15:46:13.502 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+  ADDRESS | METHOD |       ROUTE        |                             HANDLER                              |    MIDDLEWARE      
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /*                 | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing  | GLOBAL MIDDLEWARE  
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-admin/*any   | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-monitor/*any | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-picture/*any | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-search/*any  | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-spider/*any  | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-web/*any     | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /swagger/*         | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI              | HOOK_BEFORE_SERVE  
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /v3/api-docs       | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec            |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+
+2022-11-14 15:47:10.523 [33m[DEBU][0m {5cb756fce263271794fb243e5f0799a5} entry randomWithWeight
+2022-11-14 15:48:16.345 [INFO] pid[13080]: http server started listening on [:9607]
+2022-11-14 15:48:16.345 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 15:48:16.346 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+  ADDRESS | METHOD |       ROUTE        |                             HANDLER                              |    MIDDLEWARE      
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /*                 | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing  | GLOBAL MIDDLEWARE  
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-admin/*any   | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-monitor/*any | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-picture/*any | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-search/*any  | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-spider/*any  | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-web/*any     | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /swagger/*         | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI              | HOOK_BEFORE_SERVE  
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /v3/api-docs       | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec            |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+
+2022-11-14 15:48:26.361 [33m[DEBU][0m {8cb8f986f7632717bad01c3eb6747d3c} entry randomWithWeight
+2022-11-14 15:49:26.041 [INFO] pid[14476]: http server started listening on [:9607]
+2022-11-14 15:49:26.041 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 15:49:26.042 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+  ADDRESS | METHOD |       ROUTE        |                             HANDLER                              |    MIDDLEWARE      
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /*                 | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing  | GLOBAL MIDDLEWARE  
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-admin/*any   | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-monitor/*any | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-picture/*any | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-search/*any  | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-spider/*any  | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-web/*any     | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /swagger/*         | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI              | HOOK_BEFORE_SERVE  
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /v3/api-docs       | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec            |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+
+2022-11-14 15:50:54.863 [33m[DEBU][0m {387f66291b64271768e0bc74eb95d54f} entry randomWithWeight
+2022-11-14 15:57:25.083 [INFO] pid[11452]: http server started listening on [:9607]
+2022-11-14 15:57:25.083 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 15:57:25.084 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+  ADDRESS | METHOD |       ROUTE        |                             HANDLER                              |    MIDDLEWARE      
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /*                 | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing  | GLOBAL MIDDLEWARE  
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-admin/*any   | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-monitor/*any | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-picture/*any | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-search/*any  | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-spider/*any  | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /mogu-web/*any     | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /swagger/*         | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI              | HOOK_BEFORE_SERVE  
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+  :9607   | ALL    | /v3/api-docs       | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec            |                    
+----------|--------|--------------------|------------------------------------------------------------------|--------------------
+
+2022-11-14 15:58:40.664 [32m[INFO][0m {d4fde3a187642717f4f61652ea5d6d98} 请求地址：/mogu-admin/auth/getWebSiteName
+2022-11-14 15:58:40.754 [33m[DEBU][0m {d4fde3a187642717f4f61652ea5d6d98} entry randomWithWeight
+2022-11-14 15:59:02.099 [32m[INFO][0m {d4fde3a187642717f4f61652ea5d6d98} 代理转发地址：http://10.168.1.125:8601/auth/getWebSiteName
+2022-11-14 15:59:58.412 [32m[INFO][0m {780c19bc99642717f5f61652c28150dc} 请求地址：/mogu-admin/auth/getWebSiteName
+2022-11-14 15:59:58.413 [33m[DEBU][0m {780c19bc99642717f5f61652c28150dc} entry randomWithWeight
+2022-11-14 15:59:58.413 [32m[INFO][0m {780c19bc99642717f5f61652c28150dc} 代理转发地址：http://10.168.1.125:8601/auth/getWebSiteName
+2022-11-14 16:01:35.733 [32m[INFO][0m {2074e064b0642717f6f6165231bd1d84} 请求地址：/mogu-admin/auth/login
+2022-11-14 16:01:35.734 [33m[DEBU][0m {2074e064b0642717f6f6165231bd1d84} entry randomWithWeight
+2022-11-14 16:01:35.735 [32m[INFO][0m {2074e064b0642717f6f6165231bd1d84} 代理转发地址：http://10.168.1.125:8601/auth/login
+2022-11-14 16:01:41.233 [32m[INFO][0m {0013b4acb1642717f7f6165257dd53ae} 请求地址：/mogu-admin/auth/login
+2022-11-14 16:01:41.239 [33m[DEBU][0m {0013b4acb1642717f7f6165257dd53ae} entry randomWithWeight
+2022-11-14 16:01:41.239 [32m[INFO][0m {0013b4acb1642717f7f6165257dd53ae} 代理转发地址：http://10.168.1.125:8601/auth/login
+2022-11-14 16:03:22.545 [32m[INFO][0m {54d25b43c9642717faf61652e990f328} 请求地址：/mogu-admin/swagger-ui/index.html
+2022-11-14 16:03:22.546 [33m[DEBU][0m {54d25b43c9642717faf61652e990f328} entry randomWithWeight
+2022-11-14 16:03:22.546 [32m[INFO][0m {54d25b43c9642717faf61652e990f328} 代理转发地址：http://10.168.1.125:8601/swagger-ui/index.html
+2022-11-14 16:03:22.705 [32m[INFO][0m {708be64cc9642717fbf61652c77abbe5} 请求地址：/mogu-admin/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 16:03:22.705 [33m[DEBU][0m {708be64cc9642717fbf61652c77abbe5} entry randomWithWeight
+2022-11-14 16:03:22.706 [32m[INFO][0m {708be64cc9642717fbf61652c77abbe5} 代理转发地址：http://10.168.1.125:8601/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 16:03:22.710 [32m[INFO][0m {0436254dc9642717fcf616524326faf4} 请求地址：/mogu-admin/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 16:03:22.711 [33m[DEBU][0m {0436254dc9642717fcf616524326faf4} entry randomWithWeight
+2022-11-14 16:03:22.711 [32m[INFO][0m {0436254dc9642717fcf616524326faf4} 代理转发地址：http://10.168.1.125:8601/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 16:03:22.711 [32m[INFO][0m {f460414dc9642717fdf6165220d31d03} 请求地址：/mogu-admin/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 16:03:22.711 [32m[INFO][0m {5cd7494dc9642717fff61652daad4a6a} 请求地址：/mogu-admin/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 16:03:22.711 [32m[INFO][0m {5cd7494dc9642717fef61652a9b8dcc7} 请求地址：/mogu-admin/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 16:03:22.712 [33m[DEBU][0m {f460414dc9642717fdf6165220d31d03} entry randomWithWeight
+2022-11-14 16:03:22.712 [33m[DEBU][0m {5cd7494dc9642717fff61652daad4a6a} entry randomWithWeight
+2022-11-14 16:03:22.713 [33m[DEBU][0m {5cd7494dc9642717fef61652a9b8dcc7} entry randomWithWeight
+2022-11-14 16:03:22.713 [32m[INFO][0m {5cd7494dc9642717fff61652daad4a6a} 代理转发地址：http://10.168.1.125:8601/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 16:03:22.713 [32m[INFO][0m {f460414dc9642717fdf6165220d31d03} 代理转发地址：http://10.168.1.125:8601/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 16:03:22.713 [32m[INFO][0m {5cd7494dc9642717fef61652a9b8dcc7} 代理转发地址：http://10.168.1.125:8601/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 16:03:27.719 [32m[INFO][0m {b49bbb77ca64271700f71652532cfc25} 请求地址：/mogu-admin/swagger-resources/configuration/ui
+2022-11-14 16:03:27.719 [33m[DEBU][0m {b49bbb77ca64271700f71652532cfc25} entry randomWithWeight
+2022-11-14 16:03:27.720 [32m[INFO][0m {b49bbb77ca64271700f71652532cfc25} 代理转发地址：http://10.168.1.125:8601/swagger-resources/configuration/ui
+2022-11-14 16:03:27.722 [32m[INFO][0m {bcafef77ca64271701f716521bdb590f} 请求地址：/mogu-admin/swagger-ui/favicon-32x32.png?v=3.0.0
+2022-11-14 16:03:27.722 [33m[DEBU][0m {bcafef77ca64271701f716521bdb590f} entry randomWithWeight
+2022-11-14 16:03:27.723 [32m[INFO][0m {bcafef77ca64271701f716521bdb590f} 代理转发地址：http://10.168.1.125:8601/swagger-ui/favicon-32x32.png?v=3.0.0
+2022-11-14 16:03:27.798 [32m[INFO][0m {046d597cca64271702f7165248c6d09a} 请求地址：/mogu-admin/swagger-resources/configuration/security
+2022-11-14 16:03:27.798 [33m[DEBU][0m {046d597cca64271702f7165248c6d09a} entry randomWithWeight
+2022-11-14 16:03:27.798 [32m[INFO][0m {046d597cca64271702f7165248c6d09a} 代理转发地址：http://10.168.1.125:8601/swagger-resources/configuration/security
+2022-11-14 16:03:27.867 [32m[INFO][0m {bcfc8f80ca64271703f71652b3dc9912} 请求地址：/mogu-admin/swagger-resources
+2022-11-14 16:03:27.868 [33m[DEBU][0m {bcfc8f80ca64271703f71652b3dc9912} entry randomWithWeight
+2022-11-14 16:03:27.868 [32m[INFO][0m {bcfc8f80ca64271703f71652b3dc9912} 代理转发地址：http://10.168.1.125:8601/swagger-resources
+2022-11-14 16:03:27.974 [32m[INFO][0m {20df5786ca64271704f7165262f7ea46} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 16:03:27.974 [33m[DEBU][0m {20df5786ca64271704f7165262f7ea46} entry randomWithWeight
+2022-11-14 16:03:27.974 [32m[INFO][0m {20df5786ca64271704f7165262f7ea46} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 16:05:09.481 [32m[INFO][0m {a0c94629e264271705f71652462a1a22} 请求地址：/mogu-admin/auth/login?username=admin&password=mogu2018&isRememberMe=true
+2022-11-14 16:05:09.482 [33m[DEBU][0m {a0c94629e264271705f71652462a1a22} entry randomWithWeight
+2022-11-14 16:05:09.483 [32m[INFO][0m {a0c94629e264271705f71652462a1a22} 代理转发地址：http://10.168.1.125:8601/auth/login?username=admin&password=mogu2018&isRememberMe=true
+2022-11-14 16:05:24.037 [32m[INFO][0m {bc32d88ce564271706f71652ba0873b1} 请求地址：/mogu-admin/picture/getList
+2022-11-14 16:05:24.038 [33m[DEBU][0m {bc32d88ce564271706f71652ba0873b1} entry randomWithWeight
+2022-11-14 16:05:24.038 [32m[INFO][0m {bc32d88ce564271706f71652ba0873b1} 代理转发地址：http://10.168.1.125:8601/picture/getList
+2022-11-14 16:06:09.831 [32m[INFO][0m {d0666336f064271707f7165240f03398} 请求地址：/mogu-web/swagger-ui/index.html
+2022-11-14 16:06:09.905 [33m[DEBU][0m {d0666336f064271707f7165240f03398} entry randomWithWeight
+2022-11-14 16:06:09.905 [32m[INFO][0m {d0666336f064271707f7165240f03398} 代理转发地址：http://10.168.1.125:8603/swagger-ui/index.html
+2022-11-14 16:06:10.234 [32m[INFO][0m {9cc1654ef064271708f7165248e27bdb} 请求地址：/mogu-web/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 16:06:10.235 [33m[DEBU][0m {9cc1654ef064271708f7165248e27bdb} entry randomWithWeight
+2022-11-14 16:06:10.235 [32m[INFO][0m {9cc1654ef064271708f7165248e27bdb} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 16:06:10.238 [32m[INFO][0m {709b994ef064271709f7165233d2c2db} 请求地址：/mogu-web/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 16:06:10.238 [33m[DEBU][0m {709b994ef064271709f7165233d2c2db} entry randomWithWeight
+2022-11-14 16:06:10.239 [32m[INFO][0m {709b994ef064271709f7165233d2c2db} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 16:06:10.239 [32m[INFO][0m {18c5b34ef06427170af7165271e48be2} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 16:06:10.239 [32m[INFO][0m {d47ebb4ef06427170bf716522f1e57eb} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 16:06:10.240 [32m[INFO][0m {d47ebb4ef06427170cf71652acca72d3} 请求地址：/mogu-web/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 16:06:10.240 [33m[DEBU][0m {18c5b34ef06427170af7165271e48be2} entry randomWithWeight
+2022-11-14 16:06:10.241 [33m[DEBU][0m {d47ebb4ef06427170bf716522f1e57eb} entry randomWithWeight
+2022-11-14 16:06:10.241 [33m[DEBU][0m {d47ebb4ef06427170cf71652acca72d3} entry randomWithWeight
+2022-11-14 16:06:10.241 [32m[INFO][0m {18c5b34ef06427170af7165271e48be2} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 16:06:10.241 [32m[INFO][0m {d47ebb4ef06427170bf716522f1e57eb} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 16:06:10.241 [32m[INFO][0m {d47ebb4ef06427170cf71652acca72d3} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 16:06:12.498 [32m[INFO][0m {ace946d5f06427170df71652b115b3ab} 请求地址：/mogu-web/swagger-resources/configuration/ui
+2022-11-14 16:06:12.498 [33m[DEBU][0m {ace946d5f06427170df71652b115b3ab} entry randomWithWeight
+2022-11-14 16:06:12.498 [32m[INFO][0m {ace946d5f06427170df71652b115b3ab} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/ui
+2022-11-14 16:06:12.499 [32m[INFO][0m {d8d46bd5f06427170ef71652447e0924} 请求地址：/mogu-web/swagger-ui/favicon-32x32.png?v=3.0.0
+2022-11-14 16:06:12.499 [33m[DEBU][0m {d8d46bd5f06427170ef71652447e0924} entry randomWithWeight
+2022-11-14 16:06:12.500 [32m[INFO][0m {d8d46bd5f06427170ef71652447e0924} 代理转发地址：http://10.168.1.125:8603/swagger-ui/favicon-32x32.png?v=3.0.0
+2022-11-14 16:06:12.618 [32m[INFO][0m {74fc64dcf06427170ff71652024b0168} 请求地址：/mogu-web/swagger-resources/configuration/security
+2022-11-14 16:06:12.618 [33m[DEBU][0m {74fc64dcf06427170ff71652024b0168} entry randomWithWeight
+2022-11-14 16:06:12.619 [32m[INFO][0m {74fc64dcf06427170ff71652024b0168} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/security
+2022-11-14 16:06:12.689 [32m[INFO][0m {58a3a8e0f064271710f71652ffee6cfc} 请求地址：/mogu-web/swagger-resources
+2022-11-14 16:06:12.689 [33m[DEBU][0m {58a3a8e0f064271710f71652ffee6cfc} entry randomWithWeight
+2022-11-14 16:06:12.690 [32m[INFO][0m {58a3a8e0f064271710f71652ffee6cfc} 代理转发地址：http://10.168.1.125:8603/swagger-resources
+2022-11-14 16:06:12.780 [32m[INFO][0m {f8772ee6f064271711f71652c4337148} 请求地址：/mogu-web/v3/api-docs
+2022-11-14 16:06:12.781 [33m[DEBU][0m {f8772ee6f064271711f71652c4337148} entry randomWithWeight
+2022-11-14 16:06:12.781 [32m[INFO][0m {f8772ee6f064271711f71652c4337148} 代理转发地址：http://10.168.1.125:8603/v3/api-docs
+2022-11-14 16:12:01.491 [INFO] pid[21580]: http server started listening on [:9607]
+2022-11-14 16:12:01.491 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 16:12:01.492 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |       ROUTE        |                             HANDLER                              |    MIDDLEWARE      
+---------------|---------|---------|--------|--------------------|------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                 | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|--------------------|------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any   | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+---------------|---------|---------|--------|--------------------|------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+---------------|---------|---------|--------|--------------------|------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+---------------|---------|---------|--------|--------------------|------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any  | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+---------------|---------|---------|--------|--------------------|------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any  | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+---------------|---------|---------|--------|--------------------|------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any     | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1 |                    
+---------------|---------|---------|--------|--------------------|------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*         | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|--------------------|------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs       | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec            |                    
+---------------|---------|---------|--------|--------------------|------------------------------------------------------------------|--------------------
+
+2022-11-14 16:17:29.256 [32m[INFO][0m {28d42d678e6527172912621f9fbda64f} 请求地址：/mogu-web/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 16:17:29.256 [32m[INFO][0m {28d42d678e6527172a12621f3f768a7b} 请求地址：/mogu-web/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 16:17:29.281 [32m[INFO][0m {dc91bf688e6527172c12621f3dd812e6} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 16:17:29.281 [32m[INFO][0m {84d8b7688e6527172b12621ff8d222b7} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 16:17:29.282 [32m[INFO][0m {8083cf688e6527172d12621f58b0b3fe} 请求地址：/mogu-web/swagger-ui/springfox.js.map
+2022-11-14 16:17:29.329 [32m[INFO][0m {28d42d678e6527172912621f9fbda64f} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 16:17:29.330 [32m[INFO][0m {28d42d678e6527172a12621f3f768a7b} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 16:17:29.350 [32m[INFO][0m {84d8b7688e6527172b12621ff8d222b7} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 16:17:29.350 [32m[INFO][0m {8083cf688e6527172d12621f58b0b3fe} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js.map
+2022-11-14 16:17:29.350 [32m[INFO][0m {dc91bf688e6527172c12621f3dd812e6} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 16:17:29.799 [32m[INFO][0m {404fa2878e6527172e12621f037be38e} 请求地址：/mogu-web/swagger-ui/swagger-ui.css.map
+2022-11-14 16:17:29.799 [32m[INFO][0m {404fa2878e6527172e12621f037be38e} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css.map
+2022-11-14 16:17:29.841 [32m[INFO][0m {ac011d8a8e6527172f12621f50efa480} 请求地址：/mogu-web/swagger-ui/index.html
+2022-11-14 16:17:29.841 [32m[INFO][0m {ac011d8a8e6527172f12621f50efa480} 代理转发地址：http://10.168.1.125:8603/swagger-ui/index.html
+2022-11-14 16:17:29.960 [32m[INFO][0m {50973b918e6527173012621f268cd805} 请求地址：/mogu-web/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 16:17:29.961 [32m[INFO][0m {50973b918e6527173012621f268cd805} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 16:17:29.961 [32m[INFO][0m {349c4d918e6527173112621fcaf50101} 请求地址：/mogu-web/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 16:17:29.962 [32m[INFO][0m {349c4d918e6527173112621fcaf50101} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 16:17:30.669 [32m[INFO][0m {d40f7ebb8e6527173212621fda747424} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 16:17:30.669 [32m[INFO][0m {d40f7ebb8e6527173212621fda747424} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 16:17:32.978 [32m[INFO][0m {b8501f458f6527173312621f53e7f09d} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 16:17:32.978 [32m[INFO][0m {b8501f458f6527173312621f53e7f09d} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 16:17:33.478 [32m[INFO][0m {883de0628f6527173412621fe5b47b95} 请求地址：/mogu-web/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 16:17:33.478 [32m[INFO][0m {883de0628f6527173412621fe5b47b95} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 16:17:33.975 [32m[INFO][0m {00ab87808f6527173512621f3310f2c9} 请求地址：/mogu-web/swagger-ui/swagger-ui.css.map
+2022-11-14 16:17:33.975 [32m[INFO][0m {00ab87808f6527173512621f3310f2c9} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css.map
+2022-11-14 16:17:34.933 [32m[INFO][0m {b839a8b98f6527173612621f64f8c35b} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 16:17:34.933 [32m[INFO][0m {b839a8b98f6527173612621f64f8c35b} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 16:17:36.736 [32m[INFO][0m {10910a25906527173712621f09f97c05} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 16:17:36.736 [32m[INFO][0m {10910a25906527173712621f09f97c05} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 16:17:36.747 [32m[INFO][0m {4426c825906527173812621f2ffac95c} 请求地址：/mogu-web/swagger-ui/springfox.js.map
+2022-11-14 16:17:36.748 [32m[INFO][0m {4426c825906527173812621f2ffac95c} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js.map
+2022-11-14 16:17:36.762 [32m[INFO][0m {6839a926906527173912621f679bd831} 请求地址：/mogu-web/swagger-resources/configuration/ui
+2022-11-14 16:17:36.762 [32m[INFO][0m {6839a926906527173912621f679bd831} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/ui
+2022-11-14 16:17:36.947 [32m[INFO][0m {2491a831906527173a12621f8f74f2ae} 请求地址：/mogu-web/swagger-ui/favicon-32x32.png?v=3.0.0
+2022-11-14 16:17:36.947 [32m[INFO][0m {2491a831906527173a12621f8f74f2ae} 代理转发地址：http://10.168.1.125:8603/swagger-ui/favicon-32x32.png?v=3.0.0
+2022-11-14 16:17:37.033 [32m[INFO][0m {24b4cb36906527173b12621fbc90694f} 请求地址：/mogu-web/swagger-resources/configuration/security
+2022-11-14 16:17:37.034 [32m[INFO][0m {24b4cb36906527173b12621fbc90694f} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/security
+2022-11-14 16:17:37.126 [32m[INFO][0m {d8544e3c906527173c12621f1f619123} 请求地址：/mogu-web/swagger-resources
+2022-11-14 16:17:37.126 [32m[INFO][0m {d8544e3c906527173c12621f1f619123} 代理转发地址：http://10.168.1.125:8603/swagger-resources
+2022-11-14 16:17:37.267 [32m[INFO][0m {10dfba44906527173d12621fb3da06c5} 请求地址：/mogu-web/v3/api-docs
+2022-11-14 16:17:37.267 [32m[INFO][0m {10dfba44906527173d12621fb3da06c5} 代理转发地址：http://10.168.1.125:8603/v3/api-docs
+2022-11-14 16:26:51.644 [32m[INFO][0m {b0073058116627173e12621f9f7c4bd4} 请求地址：/mogu-web/swagger-ui/index.html
+2022-11-14 16:26:51.645 [32m[INFO][0m {b0073058116627173e12621f9f7c4bd4} 代理转发地址：http://10.168.1.125:8603/swagger-ui/index.html
+2022-11-14 16:26:51.845 [32m[INFO][0m {046f2c64116627173f12621f29242a1b} 请求地址：/mogu-web/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 16:26:51.845 [32m[INFO][0m {046f2c64116627173f12621f29242a1b} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 16:26:51.850 [32m[INFO][0m {cc247764116627174012621f2c254581} 请求地址：/mogu-web/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 16:26:51.850 [32m[INFO][0m {cc247764116627174012621f2c254581} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 16:26:51.851 [32m[INFO][0m {1ca49364116627174212621fc1b6deee} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 16:26:51.851 [32m[INFO][0m {70ad8b64116627174112621f052ef1a6} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 16:26:51.853 [32m[INFO][0m {1ca49364116627174212621fc1b6deee} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 16:26:51.852 [32m[INFO][0m {18e89e64116627174312621fa65842f6} 请求地址：/mogu-web/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 16:26:51.854 [32m[INFO][0m {18e89e64116627174312621fa65842f6} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 16:26:51.853 [32m[INFO][0m {70ad8b64116627174112621f052ef1a6} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 16:26:52.286 [32m[INFO][0m {5c6c767e116627174412621fd8b53516} 请求地址：/mogu-web/swagger-ui/swagger-ui.css.map
+2022-11-14 16:26:52.286 [32m[INFO][0m {5c6c767e116627174412621fd8b53516} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css.map
+2022-11-14 16:26:57.305 [32m[INFO][0m {b4a798a9126627174512621fd7c4fa10} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 16:26:57.305 [32m[INFO][0m {b4a798a9126627174512621fd7c4fa10} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 16:26:57.336 [32m[INFO][0m {90de6fab126627174612621fc96b3664} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 16:26:57.336 [32m[INFO][0m {749679ab126627174712621fc84efa0e} 请求地址：/mogu-web/swagger-ui/springfox.js.map
+2022-11-14 16:26:57.336 [32m[INFO][0m {90de6fab126627174612621fc96b3664} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 16:26:57.336 [32m[INFO][0m {749679ab126627174712621fc84efa0e} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js.map
+2022-11-14 16:26:57.347 [32m[INFO][0m {98e622ac126627174812621fa5ce5214} 请求地址：/mogu-web/swagger-resources/configuration/ui
+2022-11-14 16:26:57.348 [32m[INFO][0m {98e622ac126627174812621fa5ce5214} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/ui
+2022-11-14 16:26:57.352 [32m[INFO][0m {38375fac126627174912621f9711a646} 请求地址：/mogu-web/swagger-ui/favicon-32x32.png?v=3.0.0
+2022-11-14 16:26:57.352 [32m[INFO][0m {38375fac126627174912621f9711a646} 代理转发地址：http://10.168.1.125:8603/swagger-ui/favicon-32x32.png?v=3.0.0
+2022-11-14 16:26:57.562 [32m[INFO][0m {60e7edb8126627174a12621ffb0c1ef8} 请求地址：/mogu-web/swagger-resources/configuration/security
+2022-11-14 16:26:57.567 [32m[INFO][0m {60e7edb8126627174a12621ffb0c1ef8} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/security
+2022-11-14 16:26:57.685 [32m[INFO][0m {4c5343c0126627174b12621f8328079d} 请求地址：/mogu-web/swagger-resources
+2022-11-14 16:26:57.687 [32m[INFO][0m {4c5343c0126627174b12621f8328079d} 代理转发地址：http://10.168.1.125:8603/swagger-resources
+2022-11-14 16:26:57.835 [32m[INFO][0m {dcdc39c9126627174c12621f348aa5d2} 请求地址：/mogu-web/v3/api-docs
+2022-11-14 16:26:57.847 [32m[INFO][0m {dcdc39c9126627174c12621f348aa5d2} 代理转发地址：http://10.168.1.125:8603/v3/api-docs
+2022-11-14 17:00:43.899 [INFO] pid[20216]: http server started listening on [:9607]
+2022-11-14 17:00:43.899 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 17:00:43.900 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 17:03:29.414 [INFO] pid[20984]: http server started listening on [:9607]
+2022-11-14 17:03:29.414 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 17:03:29.415 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 17:06:14.115 [32m[INFO][0m {503c706637682717deddbb516f4165a2} 请求地址：/mogu-web/swagger-ui/index.html
+2022-11-14 17:06:14.224 [32m[INFO][0m {503c706637682717deddbb516f4165a2} 代理转发地址：http://10.168.1.125:8603/swagger-ui/index.html
+2022-11-14 17:06:14.415 [32m[INFO][0m {acc85c7837682717dfddbb51d8d7e0a5} 请求地址：/mogu-web/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 17:06:14.416 [32m[INFO][0m {acc85c7837682717dfddbb51d8d7e0a5} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 17:06:14.416 [32m[INFO][0m {e087647837682717e0ddbb517554eb8a} 请求地址：/mogu-web/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 17:06:14.416 [32m[INFO][0m {e087647837682717e0ddbb517554eb8a} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 17:06:14.419 [32m[INFO][0m {e89a947837682717e1ddbb51c27c5e04} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 17:06:14.419 [32m[INFO][0m {e89a947837682717e3ddbb51b6b27eeb} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 17:06:14.419 [32m[INFO][0m {e89a947837682717e2ddbb519b8302a1} 请求地址：/mogu-web/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 17:06:14.421 [32m[INFO][0m {e89a947837682717e1ddbb51c27c5e04} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 17:06:14.421 [32m[INFO][0m {e89a947837682717e3ddbb51b6b27eeb} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 17:06:14.421 [32m[INFO][0m {e89a947837682717e2ddbb519b8302a1} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 17:06:15.104 [32m[INFO][0m {3c4c5ca137682717e4ddbb5181249a0b} 请求地址：/mogu-web/swagger-ui/swagger-ui.css.map
+2022-11-14 17:06:15.104 [32m[INFO][0m {3c4c5ca137682717e4ddbb5181249a0b} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css.map
+2022-11-14 17:06:19.699 [32m[INFO][0m {4c9144b338682717e5ddbb51fa7d5404} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 17:06:19.699 [32m[INFO][0m {4c9144b338682717e5ddbb51fa7d5404} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 17:06:19.731 [32m[INFO][0m {440635b538682717e6ddbb51a7b242b7} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 17:06:19.732 [32m[INFO][0m {440635b538682717e6ddbb51a7b242b7} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 17:06:19.733 [32m[INFO][0m {400d46b538682717e7ddbb511ce99e51} 请求地址：/mogu-web/swagger-ui/springfox.js.map
+2022-11-14 17:06:19.733 [32m[INFO][0m {400d46b538682717e7ddbb511ce99e51} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js.map
+2022-11-14 17:06:19.745 [32m[INFO][0m {18b709b638682717e8ddbb51032bacc9} 请求地址：/mogu-web/swagger-resources/configuration/ui
+2022-11-14 17:06:19.746 [32m[INFO][0m {18b709b638682717e8ddbb51032bacc9} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/ui
+2022-11-14 17:06:19.944 [32m[INFO][0m {30b0e7c138682717e9ddbb51370a889d} 请求地址：/mogu-web/swagger-resources/configuration/security
+2022-11-14 17:06:19.945 [32m[INFO][0m {30b0e7c138682717e9ddbb51370a889d} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/security
+2022-11-14 17:06:20.048 [32m[INFO][0m {60791ac838682717eaddbb5100b2b095} 请求地址：/mogu-web/swagger-resources
+2022-11-14 17:06:20.049 [32m[INFO][0m {60791ac838682717eaddbb5100b2b095} 代理转发地址：http://10.168.1.125:8603/swagger-resources
+2022-11-14 17:06:20.179 [32m[INFO][0m {e85ee1cf38682717ebddbb512cf5a520} 请求地址：/mogu-web/v3/api-docs
+2022-11-14 17:06:20.179 [32m[INFO][0m {e85ee1cf38682717ebddbb512cf5a520} 代理转发地址：http://10.168.1.125:8603/v3/api-docs
+2022-11-14 17:08:58.650 [INFO] pid[15608]: http server started listening on [:9607]
+2022-11-14 17:08:58.650 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 17:08:58.657 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 17:09:10.705 [32m[INFO][0m {68520a8460682717432d4a54886c188a} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 17:09:10.780 [32m[INFO][0m {68520a8460682717432d4a54886c188a} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 17:09:20.292 [32m[INFO][0m {107877bf62682717482d4a54e429ea70} 请求地址：/mogu-web/v3/api-docs
+2022-11-14 17:09:20.363 [32m[INFO][0m {107877bf62682717482d4a54e429ea70} 代理转发地址：http://10.168.1.125:8603/v3/api-docs
+2022-11-14 17:09:23.663 [32m[INFO][0m {ace95e8863682717492d4a544a49ddfb} 请求地址：/mogu-picture/v3/api-docs
+2022-11-14 17:09:23.740 [32m[INFO][0m {ace95e8863682717492d4a544a49ddfb} 代理转发地址：http://10.168.1.125:9602/v3/api-docs
+2022-11-14 17:09:41.209 [32m[INFO][0m {b43c309e676827174a2d4a54169bbfc2} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 17:09:41.209 [32m[INFO][0m {b43c309e676827174a2d4a54169bbfc2} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 17:10:23.112 [32m[INFO][0m {0815d45f71682717542d4a546e2dafb4} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 17:10:23.112 [32m[INFO][0m {0815d45f71682717542d4a546e2dafb4} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 17:10:26.127 [32m[INFO][0m {54848713726827175e2d4a54c57b3b4f} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 17:10:26.127 [32m[INFO][0m {54848713726827175e2d4a54c57b3b4f} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 17:11:22.276 [INFO] pid[1648]: http server started listening on [:9607]
+2022-11-14 17:11:22.276 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 17:11:22.283 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 17:11:44.546 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 17:11:44.545 [INFO] pid[13276]: http server started listening on [:9607]
+2022-11-14 17:11:44.547 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 17:11:46.405 [32m[INFO][0m {54a174c4846827175476173f0fb4b4bc} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 17:11:46.477 [32m[INFO][0m {54a174c4846827175476173f0fb4b4bc} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 17:11:57.694 [32m[INFO][0m {780d5565876827175576173fea2653c6} 请求地址：/mogu-picture/v3/api-docs
+2022-11-14 17:11:57.766 [32m[INFO][0m {780d5565876827175576173fea2653c6} 代理转发地址：http://10.168.1.125:9602/v3/api-docs
+2022-11-14 17:12:08.779 [32m[INFO][0m {3c7410fa896827175676173f90f54364} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 17:12:08.779 [32m[INFO][0m {3c7410fa896827175676173f90f54364} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 17:19:22.997 [INFO] pid[28716]: http server started listening on [:9607]
+2022-11-14 17:19:22.997 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 17:19:22.998 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 17:25:46.092 [INFO] pid[8172]: http server started listening on [:9607]
+2022-11-14 17:25:46.092 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 17:25:46.093 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 17:26:51.727 [INFO] pid[1996]: http server started listening on [:9607]
+2022-11-14 17:26:51.727 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 17:26:51.728 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 17:27:45.075 [INFO] pid[19824]: http server started listening on [:9607]
+2022-11-14 17:27:45.075 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 17:27:45.076 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 17:27:55.135 [32m[INFO][0m {4cba305166692717bcf60841de47d56d} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 17:27:55.310 [32m[INFO][0m {4cba305166692717bcf60841de47d56d} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 17:29:16.237 [32m[INFO][0m {e8fa4f3379692717bdf608415b29c8e0} 请求地址：/mogu-picture/v3/api-docs
+2022-11-14 17:29:16.352 [32m[INFO][0m {e8fa4f3379692717bdf608415b29c8e0} 代理转发地址：http://10.168.1.125:9602/v3/api-docs
+2022-11-14 17:33:47.757 [INFO] pid[26692]: http server started listening on [:9607]
+2022-11-14 17:33:47.757 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 17:33:47.758 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 17:36:11.056 [INFO] pid[19048]: http server started listening on [:9607]
+2022-11-14 17:36:11.056 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 17:36:11.057 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 18:39:51.736 [INFO] pid[14292]: http server started listening on [:9607]
+2022-11-14 18:39:51.736 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 18:39:51.745 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                        ROUTE                         |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                                   | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                                     | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                                   | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                                   | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                                    | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                                    | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                                       | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-ui/swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-ui/swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-ui/swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                           | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                                         | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|------------------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 18:40:08.801 [32m[INFO][0m {342fd753576d2717b6e6ec17ef293e07} 请求地址：/mogu-web/swagger-ui/index.html
+2022-11-14 18:40:08.877 [32m[INFO][0m {342fd753576d2717b6e6ec17ef293e07} 代理转发地址：http://10.168.1.125:8603/swagger-ui/index.html
+2022-11-14 18:40:09.044 [32m[INFO][0m {e0d55762576d2717b7e6ec17d4624cd9} 请求地址：/mogu-web/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 18:40:09.046 [32m[INFO][0m {e0d55762576d2717b7e6ec17d4624cd9} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 18:40:09.050 [32m[INFO][0m {e439c762576d2717b8e6ec17d92c8f2e} 请求地址：/mogu-web/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 18:40:09.051 [32m[INFO][0m {e439c762576d2717b9e6ec175d876820} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 18:40:09.052 [32m[INFO][0m {4860e262576d2717bae6ec173220ec0a} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 18:40:09.053 [32m[INFO][0m {80f7ea62576d2717bbe6ec17478d8d3b} 请求地址：/mogu-web/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 18:40:09.053 [32m[INFO][0m {e439c762576d2717b9e6ec175d876820} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 18:40:09.052 [32m[INFO][0m {e439c762576d2717b8e6ec17d92c8f2e} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 18:40:09.054 [32m[INFO][0m {4860e262576d2717bae6ec173220ec0a} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 18:40:09.055 [32m[INFO][0m {80f7ea62576d2717bbe6ec17478d8d3b} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 18:40:11.578 [32m[INFO][0m {84026df9576d2717bce6ec1725094752} 请求地址：/mogu-web/swagger-resources/configuration/ui
+2022-11-14 18:40:11.579 [32m[INFO][0m {84026df9576d2717bce6ec1725094752} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/ui
+2022-11-14 18:40:11.661 [32m[INFO][0m {984b65fe576d2717bde6ec1734c7b1b7} 请求地址：/mogu-web/swagger-resources/configuration/security
+2022-11-14 18:40:11.663 [32m[INFO][0m {984b65fe576d2717bde6ec1734c7b1b7} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/security
+2022-11-14 18:40:11.740 [32m[INFO][0m {6c090b03586d2717bee6ec172b280ae7} 请求地址：/mogu-web/swagger-resources
+2022-11-14 18:40:11.740 [32m[INFO][0m {6c090b03586d2717bee6ec172b280ae7} 代理转发地址：http://10.168.1.125:8603/swagger-resources
+2022-11-14 18:40:11.892 [32m[INFO][0m {acb01a0c586d2717bfe6ec17998d3de6} 请求地址：/mogu-web/v3/api-docs
+2022-11-14 18:40:11.892 [32m[INFO][0m {acb01a0c586d2717bfe6ec17998d3de6} 代理转发地址：http://10.168.1.125:8603/v3/api-docs
+2022-11-14 18:40:12.255 [32m[INFO][0m {944cd121586d2717c0e6ec174d83880a} 请求地址：/mogu-web/swagger-ui/index.html
+2022-11-14 18:40:12.257 [32m[INFO][0m {884ce221586d2717c1e6ec17e7e81832} 请求地址：/mogu-web/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 18:40:12.257 [32m[INFO][0m {944cd121586d2717c0e6ec174d83880a} 代理转发地址：http://10.168.1.125:8603/swagger-ui/index.html
+2022-11-14 18:40:12.258 [32m[INFO][0m {884ce221586d2717c1e6ec17e7e81832} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 18:40:12.258 [32m[INFO][0m {0cacf421586d2717c2e6ec17fcb687e1} 请求地址：/mogu-web/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 18:40:12.259 [32m[INFO][0m {0cacf421586d2717c2e6ec17fcb687e1} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 18:40:12.482 [32m[INFO][0m {a46e502f586d2717c3e6ec17c12e0a35} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 18:40:12.483 [32m[INFO][0m {5cd45a2f586d2717c4e6ec172815a9e5} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 18:40:12.483 [32m[INFO][0m {a46e502f586d2717c3e6ec17c12e0a35} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 18:40:12.483 [32m[INFO][0m {5cd45a2f586d2717c4e6ec172815a9e5} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 18:40:12.486 [32m[INFO][0m {3400842f586d2717c5e6ec1767ea4329} 请求地址：/mogu-web/swagger-ui/springfox.js.map
+2022-11-14 18:40:12.487 [32m[INFO][0m {3400842f586d2717c5e6ec1767ea4329} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js.map
+2022-11-14 18:40:12.677 [32m[INFO][0m {44ece53a586d2717c6e6ec17c0f23fc2} 请求地址：/mogu-web/swagger-ui/swagger-ui.css.map
+2022-11-14 18:40:12.678 [32m[INFO][0m {44ece53a586d2717c6e6ec17c0f23fc2} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css.map
+2022-11-14 18:40:46.729 [INFO] pid[27372]: http server started listening on [:9607]
+2022-11-14 18:40:46.729 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 18:40:46.733 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 18:40:50.693 [32m[INFO][0m {a017d114616d27171c68645faa42ddf9} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 18:40:50.769 [32m[INFO][0m {a017d114616d27171c68645faa42ddf9} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 18:40:57.611 [32m[INFO][0m {7c1b30b1626d27172568645f6f20819e} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 18:40:57.612 [32m[INFO][0m {7c1b30b1626d27172568645f6f20819e} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 18:41:08.973 [32m[INFO][0m {4c0f6a56656d27172668645f5fddd119} 请求地址：/mogu-web/v3/api-docs
+2022-11-14 18:41:09.050 [32m[INFO][0m {4c0f6a56656d27172668645f5fddd119} 代理转发地址：http://10.168.1.125:8603/v3/api-docs
+2022-11-14 18:43:29.267 [32m[INFO][0m {84a99a00866d27172f68645fc2ac28c8} 请求地址：/mogu-web/v3/api-docs
+2022-11-14 18:43:29.270 [32m[INFO][0m {84a99a00866d27172f68645fc2ac28c8} 代理转发地址：http://10.168.1.125:8603/v3/api-docs
+2022-11-14 18:43:35.367 [32m[INFO][0m {9801356c876d27173768645f6ed662b1} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 18:43:35.368 [32m[INFO][0m {9801356c876d27173768645f6ed662b1} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 18:43:42.820 [32m[INFO][0m {8c617328896d27173868645f9fa6c867} 请求地址：/mogu-web/v3/api-docs
+2022-11-14 18:43:42.821 [32m[INFO][0m {8c617328896d27173868645f9fa6c867} 代理转发地址：http://10.168.1.125:8603/v3/api-docs
+2022-11-14 18:43:44.673 [32m[INFO][0m {a85fe096896d27173968645f21d3a4b0} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 18:43:44.676 [32m[INFO][0m {a85fe096896d27173968645f21d3a4b0} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 18:44:18.100 [32m[INFO][0m {88904a5f916d27174968645f9a7d0b58} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 18:44:18.101 [32m[INFO][0m {88904a5f916d27174968645f9a7d0b58} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 18:53:15.391 [32m[INFO][0m {085556780e6e27175268645f188415d4} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 18:53:15.393 [32m[INFO][0m {085556780e6e27175268645f188415d4} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 19:21:26.805 [32m[INFO][0m {44636f48986f27175668645f094630c6} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 19:21:26.808 [32m[INFO][0m {44636f48986f27175668645f094630c6} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 19:32:37.407 [32m[INFO][0m {8086736b347027178e68645f5c5f7d76} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 19:32:37.411 [32m[INFO][0m {8086736b347027178e68645f5c5f7d76} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 19:32:51.215 [32m[INFO][0m {94876fa2377027179068645fcb1f3484} 请求地址：/mogu-search/v3/api-docs
+2022-11-14 19:32:59.854 [32m[INFO][0m {c84c67a5397027179968645fd1b9596b} 请求地址：/mogu-admin/v3/api-docs
+2022-11-14 19:32:59.855 [32m[INFO][0m {c84c67a5397027179968645fd1b9596b} 代理转发地址：http://10.168.1.125:8601/v3/api-docs
+2022-11-14 19:33:02.721 [32m[INFO][0m {80f348503a7027179a68645f648f2069} 请求地址：/mogu-web/v3/api-docs
+2022-11-14 19:33:02.721 [32m[INFO][0m {80f348503a7027179a68645f648f2069} 代理转发地址：http://10.168.1.125:8603/v3/api-docs
+2022-11-14 19:33:28.364 [INFO] swagger ui is serving at address: http://127.0.0.1:9607/swagger/
+2022-11-14 19:33:28.364 [INFO] pid[4460]: http server started listening on [:9607]
+2022-11-14 19:33:28.365 [INFO] openapi specification is serving at address: http://127.0.0.1:9607/v3/api-docs
+
+     SERVER    | DOMAIN  | ADDRESS | METHOD |                   ROUTE                   |                                     HANDLER                                      |    MIDDLEWARE      
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /*                                        | github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing                  | GLOBAL MIDDLEWARE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-admin/*any                          | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-monitor/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-picture/*any                        | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-search/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-spider/*any                         | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /mogu-web/*any                            | github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1                 |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources                        | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerResources |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/security | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerSecurity  |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | GET    | /swagger-resources/configuration/ui       | github.com/go-mogu/mogu-gateway/internal/controller.(*cSwagger).SwaggerUi        |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /swagger/*                                | github.com/gogf/gf/v2/net/ghttp.(*Server).swaggerUI                              | HOOK_BEFORE_SERVE  
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+  mogu-gateway | default | :9607   | ALL    | /v3/api-docs                              | github.com/gogf/gf/v2/net/ghttp.(*Server).openapiSpec                            |                    
+---------------|---------|---------|--------|-------------------------------------------|----------------------------------------------------------------------------------|--------------------
+
+2022-11-14 19:35:06.527 [32m[INFO][0m {a8b7a823577027172ae023194f99c82f} 请求地址：/mogu-admin/v2/api-docs
+2022-11-14 19:35:06.601 [32m[INFO][0m {a8b7a823577027172ae023194f99c82f} 代理转发地址：http://10.168.1.125:8601/v2/api-docs
+2022-11-14 20:06:48.707 [32m[INFO][0m {84c92a06127227172ee0231962a8e2f5} 请求地址：/mogu-web/swagger-ui/index.html
+2022-11-14 20:06:48.782 [32m[INFO][0m {84c92a06127227172ee0231962a8e2f5} 代理转发地址：http://10.168.1.125:8603/swagger-ui/index.html
+2022-11-14 20:06:48.970 [32m[INFO][0m {5c1a2416127227172fe02319bdbf1c2d} 请求地址：/mogu-web/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 20:06:48.971 [32m[INFO][0m {5c1a2416127227172fe02319bdbf1c2d} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.css?v=3.0.0
+2022-11-14 20:06:48.971 [32m[INFO][0m {b4b634161272271730e023196c5ca327} 请求地址：/mogu-web/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 20:06:48.972 [32m[INFO][0m {64a644161272271732e02319fe67d849} 请求地址：/mogu-web/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 20:06:48.972 [32m[INFO][0m {64a644161272271731e02319a06f7565} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 20:06:48.973 [32m[INFO][0m {34974c161272271733e023198b2c8f37} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 20:06:48.974 [32m[INFO][0m {b4b634161272271730e023196c5ca327} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css?v=3.0.0
+2022-11-14 20:06:48.974 [32m[INFO][0m {64a644161272271732e02319fe67d849} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js?v=3.0.0
+2022-11-14 20:06:48.974 [32m[INFO][0m {64a644161272271731e02319a06f7565} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-11-14 20:06:48.975 [32m[INFO][0m {34974c161272271733e023198b2c8f37} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-11-14 20:06:49.335 [32m[INFO][0m {4455e62b1272271734e02319202ae435} 请求地址：/mogu-web/swagger-ui/swagger-ui.css.map
+2022-11-14 20:06:49.336 [32m[INFO][0m {4455e62b1272271734e02319202ae435} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui.css.map
+2022-11-14 20:06:53.971 [32m[INFO][0m {10df34401372271735e023199620a367} 请求地址：/mogu-web/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 20:06:53.971 [32m[INFO][0m {10df34401372271735e023199620a367} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-bundle.js.map
+2022-11-14 20:06:53.994 [32m[INFO][0m {884398411372271736e02319e34b4305} 请求地址：/mogu-web/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 20:06:53.995 [32m[INFO][0m {30f89f411372271737e02319b654285a} 请求地址：/mogu-web/swagger-ui/springfox.js.map
+2022-11-14 20:06:53.995 [32m[INFO][0m {884398411372271736e02319e34b4305} 代理转发地址：http://10.168.1.125:8603/swagger-ui/swagger-ui-standalone-preset.js.map
+2022-11-14 20:06:53.995 [32m[INFO][0m {30f89f411372271737e02319b654285a} 代理转发地址：http://10.168.1.125:8603/swagger-ui/springfox.js.map
+2022-11-14 20:06:54.008 [32m[INFO][0m {688769421372271738e0231965921f4f} 请求地址：/mogu-web/swagger-resources/configuration/ui
+2022-11-14 20:06:54.009 [32m[INFO][0m {688769421372271738e0231965921f4f} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/ui
+2022-11-14 20:06:54.135 [32m[INFO][0m {6419064a1372271739e023191a1c3e7c} 请求地址：/mogu-web/swagger-resources/configuration/security
+2022-11-14 20:06:54.135 [32m[INFO][0m {6419064a1372271739e023191a1c3e7c} 代理转发地址：http://10.168.1.125:8603/swagger-resources/configuration/security
+2022-11-14 20:06:54.201 [32m[INFO][0m {406aee4d137227173ae023195914d46c} 请求地址：/mogu-web/swagger-resources
+2022-11-14 20:06:54.201 [32m[INFO][0m {406aee4d137227173ae023195914d46c} 代理转发地址：http://10.168.1.125:8603/swagger-resources
+2022-11-14 20:06:54.299 [32m[INFO][0m {1c00cc53137227173be0231907a52543} 请求地址：/mogu-web/v3/api-docs
+2022-11-14 20:06:54.300 [32m[INFO][0m {1c00cc53137227173be0231907a52543} 代理转发地址：http://10.168.1.125:8603/v3/api-docs
+2022-11-14 20:07:00.003 [32m[INFO][0m {d83fb7a7147227173ce023195c0a1f5f} 请求地址：/mogu-picture//v3/api-docs
+2022-11-14 20:07:00.070 [32m[INFO][0m {d83fb7a7147227173ce023195c0a1f5f} 代理转发地址：http://10.168.1.125:9602//v3/api-docs
+2022-11-14 20:07:03.464 [32m[INFO][0m {a8910c76157227173de0231934d3ff5b} 请求地址：/mogu-picture/v3/api-docs
+2022-11-14 20:07:03.465 [32m[INFO][0m {a8910c76157227173de0231934d3ff5b} 代理转发地址：http://10.168.1.125:9602/v3/api-docs

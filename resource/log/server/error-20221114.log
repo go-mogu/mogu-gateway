@@ -1,0 +1,34 @@
+2022-11-14 19:32:51.289 {94876fa2377027179068645fcb1f3484} 500 "GET http localhost:9607 /mogu-search/v3/api-docs HTTP/1.1" 0.073, ::1, "http://localhost:9607/document.html", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 HBPC/12.1.1.301", 50, "Internal Error", ""
+Stack:
+1. exception recovered: instance list is empty!
+   1).  github.com/go-mogu/mogu-gateway/utility.ErrIsNil
+        D:/go/src/go-mogu/mogu-gateway/utility/ErrUtil.go:14
+   2).  github.com/go-mogu/mogu-gateway/internal/core/lb.GetServiceUrl
+        D:/go/src/go-mogu/mogu-gateway/internal/core/lb/LB.go:21
+   3).  github.com/go-mogu/mogu-gateway/internal/cmd.ReverseProxy
+        D:/go/src/go-mogu/mogu-gateway/internal/cmd/cmd.go:60
+   4).  github.com/go-mogu/mogu-gateway/internal/cmd.RegisterRoute.func1
+        D:/go/src/go-mogu/mogu-gateway/internal/cmd/cmd.go:52
+   5).  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+        D:/go/pkg/mod/github.com/gogf/gf/v2@v2.2.2/net/ghttp/ghttp_request_middleware.go:131
+   6).  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+        D:/go/pkg/mod/github.com/gogf/gf/v2@v2.2.2/net/ghttp/ghttp_func.go:55
+   7).  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+        D:/go/pkg/mod/github.com/gogf/gf/v2@v2.2.2/net/ghttp/ghttp_request_middleware.go:129
+   8).  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+        D:/go/pkg/mod/github.com/gogf/gf/v2@v2.2.2/net/ghttp/ghttp_request_middleware.go:90
+   9).  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+        D:/go/pkg/mod/github.com/gogf/gf/v2@v2.2.2/net/ghttp/ghttp_request_middleware.go:89
+   10). github.com/gogf/gf/v2/util/gutil.TryCatch
+        D:/go/pkg/mod/github.com/gogf/gf/v2@v2.2.2/util/gutil/gutil.go:56
+   11). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+        D:/go/pkg/mod/github.com/gogf/gf/v2@v2.2.2/net/ghttp/ghttp_request_middleware.go:49
+   12). github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+        D:/go/pkg/mod/github.com/gogf/gf/v2@v2.2.2/net/ghttp/ghttp_middleware_tracing.go:78
+   13). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+        D:/go/pkg/mod/github.com/gogf/gf/v2@v2.2.2/net/ghttp/ghttp_request_middleware.go:96
+   14). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+        D:/go/pkg/mod/github.com/gogf/gf/v2@v2.2.2/net/ghttp/ghttp_request_middleware.go:95
+   15). github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+        D:/go/pkg/mod/github.com/gogf/gf/v2@v2.2.2/net/ghttp/ghttp_server_handler.go:132
+
