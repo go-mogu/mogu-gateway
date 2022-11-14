@@ -1,0 +1,51 @@
+kind: pipeline
+type: kubernetes
+name: drone
+
+platform:
+  arch: amd64
+
+trigger:
+  branch:
+    - master
+
+steps:
+  - name: build
+    image: golang:1.19.2-alpine3.16
+    environment:
+      GO111MODULE: on
+      GOPROXY: https://goproxy.cn
+    volumes:
+      - name: cache
+        path: /go
+    commands:
+      - go build -o mogu-gateway main.go
+  - name: publish
+    image: registry.cn-guangzhou.aliyuncs.com/mogu-zh/drone-kaniko:latest
+    settings:
+      registry: registry.aliyuncs.com
+      repo: mogu-zh/mogu-gateway
+      expand_repo: true
+      auto_tag: true
+      dockerfile: manifest/docker/Dockerfile
+      username:
+        from_secret: docker_username
+      password:
+        from_secret: docker_password
+  - name: install
+    image: registry.aliyuncs.com/k8s-lzh/drone-cli:1.0.9
+    settings:
+      registry: registry.aliyuncs.com
+      namespace: go-mogu
+      chart_path: manifest/deploy/chart/mogu-gateway
+      chart_name: mogu-gateway
+#      tag: 1.0.0
+      username:
+        from_secret: docker_username
+      password:
+        from_secret: docker_password
+
+volumes:
+  - name: cache
+    host:
+      path: /go

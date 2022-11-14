@@ -58,7 +58,8 @@ func getHostByRandomWeight(ctx context.Context, hosts []nacosModel.Instance) nac
 		return nacosModel.Instance{}
 	}
 	balance := newWeightRandomBalance(hosts...)
-	return balance.Next()
+	instance := balance.Next()
+	return instance
 }
 
 type weightRandomBalance struct {

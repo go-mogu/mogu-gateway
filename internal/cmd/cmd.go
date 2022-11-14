@@ -27,12 +27,17 @@ var (
 		Brief: "start http server",
 		Func: func(ctx context.Context, parser *gcmd.Parser) (err error) {
 			s := g.Server(appName)
-			s.Group("/swagger-resources", func(group *ghttp.RouterGroup) {
-				group.Bind(controller.Swagger)
+			s.Use(ghttp.MiddlewareCORS)
+			s.Group("/", func(group *ghttp.RouterGroup) {
+				group.Bind(controller.Actuator)
+				s.Group("/swagger-resources", func(group *ghttp.RouterGroup) {
+					group.Bind(controller.Swagger)
+				})
+				for _, route := range model.Routes {
+					RegisterRoute(ctx, route, s)
+				}
 			})
-			for _, route := range model.Routes {
-				RegisterRoute(ctx, route, s)
-			}
+
 			err = config.RegisterInstance(ctx, s)
 			if err != nil {
 				return err
